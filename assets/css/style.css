@@ -1,4 +1,8 @@
 
+img {
+    max-width: 100%;
+}
+
 ul {
     list-style-type:none;
 }
@@ -21,9 +25,15 @@ li a:hover {
     font-weight: 400;
     font-style: normal;
 }
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
   
 #parTitle {
-    font-size:6.5rem;
+    font-size:7rem;
     line-height:100px;
 }
 
@@ -32,7 +42,40 @@ li a:hover {
 }
 
 .bg-strong-weed {
-    background-color: #527263;
+    background-color: #1c2e25;
+}
+
+.ipods-shadow {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.ipods-shadow:active {
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+
+.as-object-position-bottom {
+    object-position:bottom;
+}
+
+video {
+    box-shadow: #1c2e25 0px 19px 38px, #739686 0px 15px 12px;
+}
+
+.col-12.d-flex > img {
+    width:80px;
+}
+
+.rounded-img {
+    width:400px;
+    height:400px;
+    border-radius:50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.col-md-4.shadowed {
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 @media screen and (min-width:768px) {
@@ -47,5 +90,17 @@ li a:hover {
         object-position:top;
       
     }
+    
+    .rounded-img {
+        width:200px;
+        height:200px;
+    }
 
+}
+
+@media screen and (min-width:992px) {
+    .rounded-img {
+        width:300px;
+        height:300px;
+    }
 }

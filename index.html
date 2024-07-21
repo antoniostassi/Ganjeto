@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <!-- Tools Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -25,7 +29,7 @@
                         <li><a href="#">Contatti</a></li>
                     </ul>
                     <div class="off-canvas-btn d-md-none">
-                        <button class="btn btn-success-subtle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+                        <button class="btn ipods-shadow border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
@@ -49,19 +53,55 @@
     <div class="container-fluid bg-weed">
         <div class="container">
             <div class="row text-white py-3 bg-weed">
-                <div class="col-12 col-md-6">
-                    <h2 id="parTitle" class="bebas-neue-regular">Growing Growers</h2>
-                    <p>Il Ganjeto è una società cooperativa agricola nata nel 2022 con lo scopo di puntare a fornire la migliore qualità di cannabis light possibile.</p>
-                    <p>Garantiamo prodotti con livelli di THC entro i limiti previsti e prestiamo particolare attenzione alla coltivazione e alla selezione di varietà che esprimono le migliori qualità</p>
+                <div class="col-12 col-md-6 d-md-flex flex-column justify-content-center">
+                    <h2 id="parTitle" class="bebas-neue-regular pt-5 pt-md-0">Growing Growers</h2>
+                    <p class="fs-4 mt-3 roboto-slab">Il <strong>Ganjeto</strong> è una società cooperativa agricola nata nel 2022 con lo scopo di puntare a fornire la migliore qualità di cannabis light possibile.</p>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 py-3">
                     <div class="video-cont d-flex justify-content-center">
                         <video src="assets/video/growing.mp4" class="m-auto object-fit-cover w-100 rounded-4" autoplay muted loop controls></video>
                     </div>
                 </div>
             </div>
-
         </div>
+    </div>
+
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="row text-center roboto-slab fs-5">
+                <div class="col-12 col-md-4 py-3">
+                    <p class="py-4">I nostri semi sono certificati da (inserire nome azienda/fornitore)</p>
+                    <img src="assets/img/certified-weed.jpg" alt="Semi cannabis certficati" class="rounded-img mb-4">
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-12 col-md-4 py-3 ">
+                    <p class="py-4">La coltivazione della nostra cannabis avviene rigorosamente in serra</p>                    
+                    <img src="assets/img/serra.jpg" alt="Serra cannabis" class="rounded-img mb-4">
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-12 col-md-4 py-3">
+                    <p class="py-4">Controlliamo i parametri ambientali per assicurare un prodotto di qualità</p>
+                    <img src="assets/img/temperatura.jpg" alt="Controllo della temperatura" class="rounded-img mb-4">
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-12 col-md-4 py-3">
+                    <p class="py-4">NON impieghiamo terpeni artificiali durante il trattamento</p>
+                    <img src="assets/img/terpeni.jpg" alt="NO Terpeni" class="rounded-img mb-4">
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-12 col-md-4 py-3">
+                    <p class="py-4">Semina, potatura e raccolta delle nostre piante è effettuata a mano</p>
+                    <img src="assets/img/amano.jpg" alt="Raccolta a mano" class="rounded-img mb-4">
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-12 col-md-4 py-3">
+                    <p class="py-4">Utilizziamo lampade a LED top di Gamma e prodotti BIO al 100%</p>
+                    <img src="assets/img/coltivazione-led.jpeg" alt="LED Top di gamma" class="rounded-img mb-4">
+                    <hr class="d-md-none">
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
