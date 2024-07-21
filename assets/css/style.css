@@ -15,3 +15,37 @@ li a {
 li a:hover {
     color:green;
 }
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#parTitle {
+    font-size:6.5rem;
+    line-height:100px;
+}
+
+.bg-weed {
+    background-color: #739686;
+}
+
+.bg-strong-weed {
+    background-color: #527263;
+}
+
+@media screen and (min-width:768px) {
+
+    .video-cont {
+        height:700px;
+    
+    }
+    .video-cont > video {
+        height:100%;
+        width:50%;
+        object-position:top;
+      
+    }
+
+}
